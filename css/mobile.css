@@ -1,0 +1,59 @@
+@media (max-width: 600px) {
+  .content-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .sidebar {
+    display: none;
+    position: fixed;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    transition: left 0.3s ease;
+  }
+
+  .main-content {
+    height: auto;
+    z-index: 1;
+  }
+
+  .header {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  .footer {
+    position: relative;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .footer span {
+    font-size: 11px !important;
+  }
+
+  .search-box input {
+    width: 100px;
+  }
+
+  .header-icon {
+    padding: 5px !important;
+  }
+
+  .header-icon i {
+    font-size: 14px !important;
+  }
+
+  #toggle-button {
+    padding-left: 3px !important;
+    padding-right: 3px !important;
+    margin: 0 !important;
+  }
+
+  #close-button {
+    display: block !important;
+  }
+}

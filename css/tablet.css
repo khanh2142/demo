@@ -1,0 +1,5 @@
+@media (max-width: 940px) {
+  .content-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
